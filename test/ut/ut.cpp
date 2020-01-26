@@ -373,7 +373,7 @@ int main() {
 
   {
     struct test_runner : runner<test_reporter> {
-      using runner::active_exception_;
+//      using runner::active_exception_;
       using runner::reporter_;
       using runner::run_;
       using runner::operator=;

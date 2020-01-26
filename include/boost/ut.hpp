@@ -1337,7 +1337,7 @@ class runner {
         std::cout << '\n';
       }
 
-      active_exception_ = false;
+//      active_exception_ = false;
 #if defined(__cpp_exceptions)
       try {
 #endif
@@ -1346,11 +1346,11 @@ class runner {
       } catch (const events::fatal_assertion&) {
       } catch (const std::exception& e) {
         reporter_.on(events::exception{e.what()});
-        active_exception_ = true;
+//        active_exception_ = true;
         ++fails_;
       } catch (...) {
         reporter_.on(events::exception{"Unknown exception"});
-        active_exception_ = true;
+//        active_exception_ = true;
         ++fails_;
       }
 #endif
@@ -1448,7 +1448,7 @@ class runner {
   std::vector<void (*)()> suites_{};
   std::size_t level_{};
   bool run_{};
-  bool active_exception_{};
+//  bool active_exception_{};
   std::size_t fails_{};
   std::array<std::string_view, MaxPathSize> path_{};
   filter filter_{};
