@@ -9,6 +9,8 @@ function(benchmark name file)
   target_compile_options(b${name} PRIVATE ${ARGN})
   if (ENABLE_RUN_AFTER_BUILD)
     add_custom_command(TARGET b${name} COMMAND b${name})
+  else()
+    add_test(NAME b${name} COMMAND b${name})
   endif()
 endfunction()
 
