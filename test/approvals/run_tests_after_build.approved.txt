@@ -1,0 +1,219 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90
+[  1%] Building CXX object benchmark/CMakeFiles/btest.dir/test.cpp.o
+[  2%] Linking CXX executable btest
+[32mAll tests passed[0m (0 asserts in 1000 tests)
+[  2%] Built target btest
+[  3%] Building CXX object benchmark/CMakeFiles/bsuite.dir/suite.cpp.o
+[  4%] Linking CXX executable bsuite
+[32mAll tests passed[0m (0 asserts in 100 tests)
+[  4%] Built target bsuite
+[  5%] Building CXX object benchmark/CMakeFiles/binclude.dir/include.cpp.o
+[  6%] Linking CXX executable binclude
+[  6%] Built target binclude
+[  7%] Building CXX object benchmark/CMakeFiles/bexpect_eq.dir/expect.cpp.o
+[  8%] Linking CXX executable bexpect_eq
+[32mAll tests passed[0m (1000000 asserts in 1 tests)
+[  8%] Built target bexpect_eq
+[  9%] Building CXX object benchmark/CMakeFiles/bexpect_that.dir/expect.cpp.o
+[ 10%] Linking CXX executable bexpect_that
+[32mAll tests passed[0m (1000000 asserts in 1 tests)
+[ 10%] Built target bexpect_that
+[ 11%] Building CXX object benchmark/CMakeFiles/bexpect_udl.dir/expect.cpp.o
+[ 12%] Linking CXX executable bexpect_udl
+[32mAll tests passed[0m (1000000 asserts in 1 tests)
+[ 12%] Built target bexpect_udl
+[ 13%] Building CXX object example/CMakeFiles/should_cpp17.dir/should.cpp.o
+[ 14%] Linking CXX executable should_cpp17
+[32mAll tests passed[0m (3 asserts in 2 tests)
+[ 14%] Built target should_cpp17
+[ 15%] Building CXX object example/CMakeFiles/section_cpp17.dir/section.cpp.o
+[ 16%] Linking CXX executable section_cpp17
+[32mAll tests passed[0m (6 asserts in 3 tests)
+[ 16%] Built target section_cpp17
+[ 17%] Building CXX object example/CMakeFiles/suite_cpp17.dir/suite.cpp.o
+[ 18%] Linking CXX executable suite_cpp17
+[32mAll tests passed[0m (2 asserts in 2 tests)
+[ 18%] Built target suite_cpp17
+[ 19%] Building CXX object example/CMakeFiles/skip_cpp17.dir/skip.cpp.o
+[ 20%] Linking CXX executable skip_cpp17
+[32mAll tests passed[0m (0 asserts in 0 tests)
+2 tests skipped
+[ 20%] Built target skip_cpp17
+[ 21%] Building CXX object example/CMakeFiles/test_cpp17.dir/test.cpp.o
+[ 22%] Linking CXX executable test_cpp17
+[32mAll tests passed[0m (2 asserts in 2 tests)
+[ 22%] Built target test_cpp17
+[ 23%] Building CXX object example/CMakeFiles/tmp.dir/tmp.cpp.o
+[ 24%] Linking CXX executable tmp
+[32mAll tests passed[0m (2 asserts in 1 tests)
+[ 24%] Built target tmp
+[ 25%] Building CXX object example/CMakeFiles/_test.dir/test.cpp.o
+[ 26%] Linking CXX executable _test
+[32mAll tests passed[0m (2 asserts in 2 tests)
+[ 26%] Built target _test
+[ 27%] Building CXX object example/CMakeFiles/suite.dir/suite.cpp.o
+[ 28%] Linking CXX executable suite
+[32mAll tests passed[0m (2 asserts in 2 tests)
+[ 28%] Built target suite
+[ 28%] Building CXX object example/CMakeFiles/expect_cpp17.dir/expect.cpp.o
+[ 29%] Linking CXX executable expect_cpp17
+[32mAll tests passed[0m (40 asserts in 12 tests)
+[ 29%] Built target expect_cpp17
+[ 30%] Building CXX object example/CMakeFiles/skip.dir/skip.cpp.o
+[ 31%] Linking CXX executable skip
+[32mAll tests passed[0m (0 asserts in 0 tests)
+2 tests skipped
+[ 31%] Built target skip
+[ 32%] Building CXX object example/CMakeFiles/should.dir/should.cpp.o
+[ 33%] Linking CXX executable should
+[32mAll tests passed[0m (3 asserts in 2 tests)
+[ 33%] Built target should
+[ 34%] Building CXX object example/CMakeFiles/section.dir/section.cpp.o
+[ 35%] Linking CXX executable section
+[32mAll tests passed[0m (6 asserts in 3 tests)
+[ 35%] Built target section
+[ 36%] Building CXX object example/CMakeFiles/run.dir/run.cpp.o
+[ 37%] Linking CXX executable run
+[32mAll tests passed[0m (1 asserts in 1 tests)
+[ 37%] Built target run
+[ 38%] Building CXX object example/CMakeFiles/macro.dir/macro.cpp.o
+[ 39%] Linking CXX executable macro
+[32mAll tests passed[0m (7 asserts in 6 tests)
+[ 39%] Built target macro
+[ 40%] Building CXX object example/CMakeFiles/log.dir/log.cpp.o
+[ 41%] Linking CXX executable log
+[32mAll tests passed[0m (1 asserts in 1 tests)
+[ 41%] Built target log
+[ 42%] Building CXX object example/CMakeFiles/filter.dir/filter.cpp.o
+[ 43%] Linking CXX executable filter
+[32mAll tests passed[0m (1 asserts in 1 tests)
+[ 43%] Built target filter
+[ 44%] Building CXX object example/CMakeFiles/cli_fail_dry_run.dir/cli.cpp.o
+[ 45%] Linking CXX executable cli_fail_dry_run
+cli
+cli.fail
+[ 45%] Built target cli_fail_dry_run
+[ 46%] Building CXX object example/CMakeFiles/matcher.dir/matcher.cpp.o
+[ 47%] Linking CXX executable matcher
+[32mAll tests passed[0m (3 asserts in 1 tests)
+[ 47%] Built target matcher
+[ 48%] Building CXX object example/CMakeFiles/expect.dir/expect.cpp.o
+[ 49%] Linking CXX executable expect
+[32mAll tests passed[0m (40 asserts in 12 tests)
+[ 49%] Built target expect
+[ 50%] Building CXX object example/CMakeFiles/cli_pass_no_colors.dir/cli.cpp.o
+[ 51%] Linking CXX executable cli_pass_no_colors
+cli
+cli.pass
+[ 51%] Built target cli_pass_no_colors
+[ 52%] Building CXX object example/CMakeFiles/exception.dir/exception.cpp.o
+[ 53%] Linking CXX executable exception
+[32mAll tests passed[0m (3 asserts in 1 tests)
+[ 53%] Built target exception
+[ 53%] Building CXX object example/CMakeFiles/BDD.dir/BDD.cpp.o
+[ 54%] Linking CXX executable BDD
+[32mAll tests passed[0m (2 asserts in 1 tests)
+[ 54%] Built target BDD
+[ 55%] Building CXX object example/CMakeFiles/reporter.dir/cfg/reporter.cpp.o
+[ 56%] Linking CXX executable reporter
+[ 56%] Built target reporter
+[ 57%] Building CXX object example/CMakeFiles/parameterized.dir/parameterized.cpp.o
+[ 57%] Linking CXX executable parameterized
+[32mAll tests passed[0m (20 asserts in 12 tests)
+[ 57%] Built target parameterized
+[ 58%] Building CXX object example/CMakeFiles/cli_all_dry_run.dir/cli.cpp.o
+[ 59%] Linking CXX executable cli_all_dry_run
+cli
+cli.pass
+cli.fail
+[ 59%] Built target cli_all_dry_run
+[ 60%] Building CXX object example/CMakeFiles/parallel_runner.dir/cfg/parallel_runner.cpp.o
+[ 61%] Linking CXX executable parallel_runner
+test.1.1
+test.1.2
+test.1.3
+test.2.1
+test.2.2
+test.2.3
+[32mAll tests passed[0m (6 asserts in 6 tests)
+[ 61%] Built target parallel_runner
+[ 62%] Building CXX object example/CMakeFiles/hello_world.dir/hello_world.cpp.o
+[ 63%] Linking CXX executable hello_world
+[32mAll tests passed[0m (3 asserts in 1 tests)
+[ 63%] Built target hello_world
+[ 64%] Building CXX object example/CMakeFiles/cli_pass_not_dry_run.dir/cli.cpp.o
+[ 65%] Linking CXX executable cli_pass_not_dry_run
+[32mAll tests passed[0m (1 asserts in 1 tests)
+[ 65%] Built target cli_pass_not_dry_run
+[ 66%] Building CXX object example/CMakeFiles/using.dir/using.cpp.o
+[ 67%] Linking CXX executable using
+[32mAll tests passed[0m (3 asserts in 1 tests)
+[ 67%] Built target using
+[ 68%] Building CXX object example/CMakeFiles/cli_pass_dry_run.dir/cli.cpp.o
+[ 69%] Linking CXX executable cli_pass_dry_run
+cli
+cli.pass
+[ 69%] Built target cli_pass_dry_run
+[ 70%] Building CXX object example/CMakeFiles/minimal.dir/minimal.cpp.o
+[ 71%] Linking CXX executable minimal
+[32mAll tests passed[0m (1 asserts in 0 tests)
+[ 71%] Built target minimal
+[ 72%] Building CXX object example/CMakeFiles/cli_pass.dir/cli.cpp.o
+[ 73%] Linking CXX executable cli_pass
+[32mAll tests passed[0m (1 asserts in 1 tests)
+[ 73%] Built target cli_pass
+[ 74%] Building CXX object example/CMakeFiles/abort.dir/abort.cpp.o
+[ 75%] Linking CXX executable abort
+[32mAll tests passed[0m (0 asserts in 0 tests)
+Assertion failed: (false), function operator(), file /Users/clare/Documents/develop/Testing/ut-claremacrae/example/abort.cpp, line 17.
+libc++abi.dylib: terminating
+[32mAll tests passed[0m (3 asserts in 1 tests)
+[ 75%] Built target abort
+[ 76%] Building CXX object example/CMakeFiles/printer.dir/cfg/printer.cpp.o
+[ 77%] Linking CXX executable printer
+Running "printer"...[32mPASSED[0m
+[32mAll tests passed[0m (0 asserts in 1 tests)
+[ 77%] Built target printer
+[ 78%] Building CXX object example/CMakeFiles/run_report.dir/run_report.cpp.o
+[ 79%] Linking CXX executable run_report
+[32mAll tests passed[0m (1 asserts in 1 tests)
+After report
+[ 79%] Built target run_report
+[ 80%] Building CXX object example/CMakeFiles/runner.dir/cfg/runner.cpp.o
+[ 81%] Linking CXX executable runner
+[ 81%] Built target runner
+[ 82%] Building CXX object example/CMakeFiles/mut.dir/mut.cpp.o
+[ 83%] Linking CXX executable mut
+[32mAll tests passed[0m (5 asserts in 1 tests)
+[ 83%] Built target mut
+[ 84%] Building CXX object test/ut/CMakeFiles/ut.dir/ut.cpp.o
+[ 85%] Linking CXX executable ut
+libc++abi.dylib: terminating
+[ 85%] Built target ut
+[ 86%] Building CXX object test/ft/CMakeFiles/ft-no-exceptions.dir/main.cpp.o
+[ 87%] Building CXX object test/ft/CMakeFiles/ft-no-exceptions.dir/test_suite_1.cpp.o
+[ 88%] Building CXX object test/ft/CMakeFiles/ft-no-exceptions.dir/test_suite_2.cpp.o
+[ 89%] Building CXX object test/ft/CMakeFiles/ft-no-exceptions.dir/test_suite_3.cpp.o
+[ 90%] Linking CXX executable ft-no-exceptions
+[32mAll tests passed[0m (5 asserts in 2 tests)
+[ 90%] Built target ft-no-exceptions
+[ 91%] Building CXX object test/ft/CMakeFiles/ft.dir/main.cpp.o
+[ 92%] Building CXX object test/ft/CMakeFiles/ft.dir/test_suite_1.cpp.o
+[ 93%] Building CXX object test/ft/CMakeFiles/ft.dir/test_suite_2.cpp.o
+[ 94%] Building CXX object test/ft/CMakeFiles/ft.dir/test_suite_3.cpp.o
+[ 95%] Linking CXX executable ft
+[32mAll tests passed[0m (5 asserts in 2 tests)
+[ 95%] Built target ft
+[ 96%] Building CXX object test/ft/CMakeFiles/ft-link.dir/main.cpp.o
+[ 97%] Building CXX object test/ft/CMakeFiles/ft-link.dir/test_suite_1.cpp.o
+[ 98%] Building CXX object test/ft/CMakeFiles/ft-link.dir/test_suite_2.cpp.o
+[ 99%] Building CXX object test/ft/CMakeFiles/ft-link.dir/test_suite_3.cpp.o
+[100%] Linking CXX executable ft-link
+[32mAll tests passed[0m (5 asserts in 2 tests)
+[100%] Built target ft-link
+-----------build_dir= ../../cmake-build-spaces/cmake-build-debug-clang-mp-90
+['cmake', '-D', 'ENABLE_RUN_AFTER_BUILD:BOOL=ON', '.']
+['cmake', '--build', '.', '--target', 'clean']
+['cmake', '--build', '.']

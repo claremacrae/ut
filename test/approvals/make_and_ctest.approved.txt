@@ -1,0 +1,454 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90
+[  1%] Linking CXX executable btest
+[  2%] Built target btest
+[  3%] Linking CXX executable bsuite
+[  4%] Built target bsuite
+[  5%] Linking CXX executable binclude
+[  6%] Built target binclude
+[  7%] Linking CXX executable bexpect_eq
+[  8%] Built target bexpect_eq
+[  9%] Linking CXX executable bexpect_that
+[ 10%] Built target bexpect_that
+[ 11%] Linking CXX executable bexpect_udl
+[ 12%] Built target bexpect_udl
+[ 13%] Linking CXX executable should_cpp17
+[ 14%] Built target should_cpp17
+[ 15%] Linking CXX executable section_cpp17
+[ 16%] Built target section_cpp17
+[ 17%] Linking CXX executable suite_cpp17
+[ 18%] Built target suite_cpp17
+[ 19%] Linking CXX executable skip_cpp17
+[ 20%] Built target skip_cpp17
+[ 21%] Linking CXX executable test_cpp17
+[ 22%] Built target test_cpp17
+[ 23%] Linking CXX executable tmp
+[ 24%] Built target tmp
+[ 25%] Linking CXX executable _test
+[ 26%] Built target _test
+[ 27%] Linking CXX executable suite
+[ 28%] Built target suite
+[ 29%] Linking CXX executable expect_cpp17
+[ 29%] Built target expect_cpp17
+[ 30%] Linking CXX executable skip
+[ 31%] Built target skip
+[ 32%] Linking CXX executable should
+[ 33%] Built target should
+[ 34%] Linking CXX executable section
+[ 35%] Built target section
+[ 36%] Linking CXX executable run
+[ 37%] Built target run
+[ 38%] Linking CXX executable macro
+[ 39%] Built target macro
+[ 40%] Linking CXX executable log
+[ 41%] Built target log
+[ 42%] Linking CXX executable filter
+[ 43%] Built target filter
+[ 44%] Linking CXX executable cli_fail_dry_run
+[ 45%] Built target cli_fail_dry_run
+[ 46%] Linking CXX executable matcher
+[ 47%] Built target matcher
+[ 48%] Linking CXX executable expect
+[ 49%] Built target expect
+[ 50%] Linking CXX executable cli_pass_no_colors
+[ 51%] Built target cli_pass_no_colors
+[ 52%] Linking CXX executable exception
+[ 53%] Built target exception
+[ 54%] Linking CXX executable BDD
+[ 54%] Built target BDD
+[ 55%] Linking CXX executable reporter
+[ 56%] Built target reporter
+[ 56%] Linking CXX executable parameterized
+[ 57%] Built target parameterized
+[ 58%] Linking CXX executable cli_all_dry_run
+[ 59%] Built target cli_all_dry_run
+[ 60%] Linking CXX executable parallel_runner
+[ 61%] Built target parallel_runner
+[ 62%] Linking CXX executable hello_world
+[ 63%] Built target hello_world
+[ 64%] Linking CXX executable cli_pass_not_dry_run
+[ 65%] Built target cli_pass_not_dry_run
+[ 66%] Linking CXX executable using
+[ 67%] Built target using
+[ 68%] Linking CXX executable cli_pass_dry_run
+[ 69%] Built target cli_pass_dry_run
+[ 70%] Linking CXX executable minimal
+[ 71%] Built target minimal
+[ 72%] Linking CXX executable cli_pass
+[ 73%] Built target cli_pass
+[ 74%] Linking CXX executable abort
+[ 75%] Built target abort
+[ 76%] Linking CXX executable printer
+[ 77%] Built target printer
+[ 78%] Linking CXX executable run_report
+[ 79%] Built target run_report
+[ 80%] Linking CXX executable runner
+[ 81%] Built target runner
+[ 82%] Linking CXX executable mut
+[ 83%] Built target mut
+[ 84%] Linking CXX executable ut
+[ 85%] Built target ut
+[ 86%] Linking CXX executable ft-no-exceptions
+[ 90%] Built target ft-no-exceptions
+[ 91%] Linking CXX executable ft
+[ 95%] Built target ft
+[100%] Built target ft-link
+UpdateCTestConfiguration  from :/Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/DartConfiguration.tcl
+Test project /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: bexpect_udl
+
+1: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/benchmark/bexpect_udl
+1: Test timeout computed to be: 10000000
+1: [32mAll tests passed[0m (1000000 asserts in 1 tests)
+ 1/47 Test  #1: bexpect_udl ......................   Passed    0.07 sec
+test 2
+      Start  2: bexpect_that
+
+2: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/benchmark/bexpect_that
+2: Test timeout computed to be: 10000000
+2: [32mAll tests passed[0m (1000000 asserts in 1 tests)
+ 2/47 Test  #2: bexpect_that .....................   Passed    0.07 sec
+test 3
+      Start  3: bexpect_eq
+
+3: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/benchmark/bexpect_eq
+3: Test timeout computed to be: 10000000
+3: [32mAll tests passed[0m (1000000 asserts in 1 tests)
+ 3/47 Test  #3: bexpect_eq .......................   Passed    0.07 sec
+test 4
+      Start  4: binclude
+
+4: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/benchmark/binclude
+4: Test timeout computed to be: 10000000
+ 4/47 Test  #4: binclude .........................   Passed    0.02 sec
+test 5
+      Start  5: bsuite
+
+5: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/benchmark/bsuite
+5: Test timeout computed to be: 10000000
+5: [32mAll tests passed[0m (0 asserts in 100 tests)
+ 5/47 Test  #5: bsuite ...........................   Passed    0.03 sec
+test 6
+      Start  6: btest
+
+6: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/benchmark/btest
+6: Test timeout computed to be: 10000000
+6: [32mAll tests passed[0m (0 asserts in 1000 tests)
+ 6/47 Test  #6: btest ............................   Passed    0.03 sec
+test 7
+      Start  7: printer
+
+7: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/printer
+7: Test timeout computed to be: 10000000
+7: Running "printer"...[32mPASSED[0m
+7: [32mAll tests passed[0m (0 asserts in 1 tests)
+ 7/47 Test  #7: printer ..........................   Passed    0.02 sec
+test 8
+      Start  8: runner
+
+8: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/runner
+8: Test timeout computed to be: 10000000
+ 8/47 Test  #8: runner ...........................   Passed    0.02 sec
+test 9
+      Start  9: parallel_runner
+
+9: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/parallel_runner
+9: Test timeout computed to be: 10000000
+9: test.1.1
+9: test.1.2
+9: test.1.3
+9: test.2.1
+9: test.2.2
+9: test.2.3
+9: [32mAll tests passed[0m (6 asserts in 6 tests)
+ 9/47 Test  #9: parallel_runner ..................   Passed    0.03 sec
+test 10
+      Start 10: reporter
+
+10: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/reporter
+10: Test timeout computed to be: 10000000
+10/47 Test #10: reporter .........................   Passed    0.02 sec
+test 11
+      Start 11: abort
+
+11: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/abort
+11: Test timeout computed to be: 10000000
+11: [32mAll tests passed[0m (0 asserts in 0 tests)
+11: Assertion failed: (false), function operator(), file /Users/clare/Documents/develop/Testing/ut-claremacrae/example/abort.cpp, line 17.
+11: libc++abi.dylib: terminating
+11: [32mAll tests passed[0m (3 asserts in 1 tests)
+11/47 Test #11: abort ............................   Passed    0.03 sec
+test 12
+      Start 12: BDD
+
+12: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/BDD
+12: Test timeout computed to be: 10000000
+12: [32mAll tests passed[0m (2 asserts in 1 tests)
+12/47 Test #12: BDD ..............................   Passed    0.03 sec
+test 13
+      Start 13: cli_pass
+
+13: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/cli_pass "cli.pass"
+13: Test timeout computed to be: 10000000
+13: [32mAll tests passed[0m (1 asserts in 1 tests)
+13/47 Test #13: cli_pass .........................   Passed    0.03 sec
+test 14
+      Start 14: cli_pass_no_colors
+
+14: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/cli_pass_no_colors "cli.pass" "0" "1"
+14: Test timeout computed to be: 10000000
+14: cli
+14: cli.pass
+14/47 Test #14: cli_pass_no_colors ...............   Passed    0.02 sec
+test 15
+      Start 15: cli_pass_dry_run
+
+15: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/cli_pass_dry_run "cli.pass" "1" "1"
+15: Test timeout computed to be: 10000000
+15: cli
+15: cli.pass
+15/47 Test #15: cli_pass_dry_run .................   Passed    0.02 sec
+test 16
+      Start 16: cli_pass_not_dry_run
+
+16: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/cli_pass_not_dry_run "cli.pass" "1" "0"
+16: Test timeout computed to be: 10000000
+16: [32mAll tests passed[0m (1 asserts in 1 tests)
+16/47 Test #16: cli_pass_not_dry_run .............   Passed    0.02 sec
+test 17
+      Start 17: cli_all_dry_run
+
+17: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/cli_all_dry_run "\*" "1" "1"
+17: Test timeout computed to be: 10000000
+17/47 Test #17: cli_all_dry_run ..................   Passed    0.03 sec
+test 18
+      Start 18: cli_fail_dry_run
+
+18: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/cli_fail_dry_run "cli.fail" "1" "1"
+18: Test timeout computed to be: 10000000
+18: cli
+18: cli.fail
+18/47 Test #18: cli_fail_dry_run .................   Passed    0.02 sec
+test 19
+      Start 19: exception
+
+19: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/exception
+19: Test timeout computed to be: 10000000
+19: [32mAll tests passed[0m (3 asserts in 1 tests)
+19/47 Test #19: exception ........................   Passed    0.02 sec
+test 20
+      Start 20: expect
+
+20: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/expect
+20: Test timeout computed to be: 10000000
+20: [32mAll tests passed[0m (40 asserts in 12 tests)
+20/47 Test #20: expect ...........................   Passed    0.03 sec
+test 21
+      Start 21: filter
+
+21: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/filter
+21: Test timeout computed to be: 10000000
+21: [32mAll tests passed[0m (1 asserts in 1 tests)
+21/47 Test #21: filter ...........................   Passed    0.03 sec
+test 22
+      Start 22: hello_world
+
+22: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/hello_world
+22: Test timeout computed to be: 10000000
+22: [32mAll tests passed[0m (3 asserts in 1 tests)
+22/47 Test #22: hello_world ......................   Passed    0.02 sec
+test 23
+      Start 23: log
+
+23: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/log
+23: Test timeout computed to be: 10000000
+23: [32mAll tests passed[0m (1 asserts in 1 tests)
+23/47 Test #23: log ..............................   Passed    0.02 sec
+test 24
+      Start 24: macro
+
+24: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/macro
+24: Test timeout computed to be: 10000000
+24: [32mAll tests passed[0m (7 asserts in 6 tests)
+24/47 Test #24: macro ............................   Passed    0.03 sec
+test 25
+      Start 25: minimal
+
+25: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/minimal
+25: Test timeout computed to be: 10000000
+25: [32mAll tests passed[0m (1 asserts in 0 tests)
+25/47 Test #25: minimal ..........................   Passed    0.02 sec
+test 26
+      Start 26: mut
+
+26: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/mut
+26: Test timeout computed to be: 10000000
+26: [32mAll tests passed[0m (5 asserts in 1 tests)
+26/47 Test #26: mut ..............................   Passed    0.03 sec
+test 27
+      Start 27: matcher
+
+27: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/matcher
+27: Test timeout computed to be: 10000000
+27: [32mAll tests passed[0m (3 asserts in 1 tests)
+27/47 Test #27: matcher ..........................   Passed    0.02 sec
+test 28
+      Start 28: parameterized
+
+28: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/parameterized
+28: Test timeout computed to be: 10000000
+28: [32mAll tests passed[0m (20 asserts in 12 tests)
+28/47 Test #28: parameterized ....................   Passed    0.03 sec
+test 29
+      Start 29: run
+
+29: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/run
+29: Test timeout computed to be: 10000000
+29: [32mAll tests passed[0m (1 asserts in 1 tests)
+29/47 Test #29: run ..............................   Passed    0.02 sec
+test 30
+      Start 30: run_report
+
+30: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/run_report
+30: Test timeout computed to be: 10000000
+30: [32mAll tests passed[0m (1 asserts in 1 tests)
+30: After report
+30/47 Test #30: run_report .......................   Passed    0.03 sec
+test 31
+      Start 31: section
+
+31: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/section
+31: Test timeout computed to be: 10000000
+31: [32mAll tests passed[0m (6 asserts in 3 tests)
+31/47 Test #31: section ..........................   Passed    0.03 sec
+test 32
+      Start 32: should
+
+32: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/should
+32: Test timeout computed to be: 10000000
+32: [32mAll tests passed[0m (3 asserts in 2 tests)
+32/47 Test #32: should ...........................   Passed    0.02 sec
+test 33
+      Start 33: skip
+
+33: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/skip
+33: Test timeout computed to be: 10000000
+33: [32mAll tests passed[0m (0 asserts in 0 tests)
+33: 2 tests skipped
+33/47 Test #33: skip .............................   Passed    0.03 sec
+test 34
+      Start 34: suite
+
+34: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/suite
+34: Test timeout computed to be: 10000000
+34: [32mAll tests passed[0m (2 asserts in 2 tests)
+34/47 Test #34: suite ............................   Passed    0.03 sec
+test 35
+      Start 35: _test
+
+35: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/_test
+35: Test timeout computed to be: 10000000
+35: [32mAll tests passed[0m (2 asserts in 2 tests)
+35/47 Test #35: _test ............................   Passed    0.02 sec
+test 36
+      Start 36: tmp
+
+36: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/tmp
+36: Test timeout computed to be: 10000000
+36: [32mAll tests passed[0m (2 asserts in 1 tests)
+36/47 Test #36: tmp ..............................   Passed    0.03 sec
+test 37
+      Start 37: using
+
+37: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/using
+37: Test timeout computed to be: 10000000
+37: [32mAll tests passed[0m (3 asserts in 1 tests)
+37/47 Test #37: using ............................   Passed    0.03 sec
+test 38
+      Start 38: expect_cpp17
+
+38: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/expect_cpp17
+38: Test timeout computed to be: 10000000
+38: [32mAll tests passed[0m (40 asserts in 12 tests)
+38/47 Test #38: expect_cpp17 .....................   Passed    0.03 sec
+test 39
+      Start 39: test_cpp17
+
+39: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/test_cpp17
+39: Test timeout computed to be: 10000000
+39: [32mAll tests passed[0m (2 asserts in 2 tests)
+39/47 Test #39: test_cpp17 .......................   Passed    0.03 sec
+test 40
+      Start 40: suite_cpp17
+
+40: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/suite_cpp17
+40: Test timeout computed to be: 10000000
+40: [32mAll tests passed[0m (2 asserts in 2 tests)
+40/47 Test #40: suite_cpp17 ......................   Passed    0.03 sec
+test 41
+      Start 41: section_cpp17
+
+41: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/section_cpp17
+41: Test timeout computed to be: 10000000
+41: [32mAll tests passed[0m (6 asserts in 3 tests)
+41/47 Test #41: section_cpp17 ....................   Passed    0.03 sec
+test 42
+      Start 42: should_cpp17
+
+42: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/should_cpp17
+42: Test timeout computed to be: 10000000
+42: [32mAll tests passed[0m (3 asserts in 2 tests)
+42/47 Test #42: should_cpp17 .....................   Passed    0.02 sec
+test 43
+      Start 43: skip_cpp17
+
+43: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/example/skip_cpp17
+43: Test timeout computed to be: 10000000
+43: [32mAll tests passed[0m (0 asserts in 0 tests)
+43: 2 tests skipped
+43/47 Test #43: skip_cpp17 .......................   Passed    0.03 sec
+test 44
+      Start 44: ut
+
+44: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/test/ut/ut
+44: Test timeout computed to be: 10000000
+44: libc++abi.dylib: terminating
+44/47 Test #44: ut ...............................   Passed    0.03 sec
+test 45
+      Start 45: ft
+
+45: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/test/ft/ft
+45: Test timeout computed to be: 10000000
+45: [32mAll tests passed[0m (5 asserts in 2 tests)
+45/47 Test #45: ft ...............................   Passed    0.03 sec
+test 46
+      Start 46: ft-no-exceptions
+
+46: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/test/ft/ft-no-exceptions
+46: Test timeout computed to be: 10000000
+46: [32mAll tests passed[0m (5 asserts in 2 tests)
+46/47 Test #46: ft-no-exceptions .................   Passed    0.02 sec
+test 47
+      Start 47: ft-link
+
+47: Test command: /Users/clare/Documents/develop/Testing/ut-claremacrae/cmake-build-spaces/cmake-build-debug-clang-mp-90/test/ft/ft-link
+47: Test timeout computed to be: 10000000
+47: [32mAll tests passed[0m (5 asserts in 2 tests)
+47/47 Test #47: ft-link ..........................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 47
+
+Total Test time (real) =   1.33 sec
+-----------build_dir= ../../cmake-build-spaces/cmake-build-debug-clang-mp-90
+['cmake', '-D', 'ENABLE_RUN_AFTER_BUILD:BOOL=OFF', '.']
+['cmake', '--build', '.']
+['ctest', '--verbose', '.']
