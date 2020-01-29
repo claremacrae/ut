@@ -393,10 +393,12 @@ int main() {
     test_assert(0 == reporter.tests_.fail);
     test_assert(0 == reporter.tests_.skip);
 
-    run.on(events::skip<>{.type = "test", .name = "skip", .arg = none{}});
-    test_assert(1 == reporter.tests_.pass);
-    test_assert(0 == reporter.tests_.fail);
-    test_assert(1 == reporter.tests_.skip);
+    {
+      run.on(events::skip<>{.type = "test", .name = "skip", .arg = none{}});
+      test_assert(1 == reporter.tests_.pass);
+      test_assert(0 == reporter.tests_.fail);
+      test_assert(1 == reporter.tests_.skip);
+    }
 
     {
       run = {.filter = "unknown"};
