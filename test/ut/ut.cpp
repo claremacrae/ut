@@ -398,27 +398,31 @@ int main() {
     test_assert(0 == reporter.tests_.fail);
     test_assert(1 == reporter.tests_.skip);
 
-    run = {.filter = "unknown"};
-    run.on(events::test<decltype(test_empty)>{.type = "test",
-                                              .name = "filter",
-                                              .location = {},
-                                              .arg = none{},
-                                              .run = test_empty});
-    test_assert(1 == reporter.tests_.pass);
-    test_assert(0 == reporter.tests_.fail);
-    test_assert(1 == reporter.tests_.skip);
-    run = options{};
+    {
+      run = {.filter = "unknown"};
+      run.on(events::test<decltype(test_empty)>{.type = "test",
 
-    run = {.filter = "filter"};
-    run.on(events::test<decltype(test_empty)>{.type = "test",
-                                              .name = "filter",
-                                              .location = {},
-                                              .arg = none{},
-                                              .run = test_empty});
-    test_assert(2 == reporter.tests_.pass);
-    test_assert(0 == reporter.tests_.fail);
-    test_assert(1 == reporter.tests_.skip);
-    run = options{};
+                                                .location = {},
+                                                .arg = none{},
+                                                .run = test_empty});
+      test_assert(1 == reporter.tests_.pass);
+      test_assert(0 == reporter.tests_.fail);
+      test_assert(1 == reporter.tests_.skip);
+      run = options{};
+    }
+
+    {
+      run = {.filter = "filter"};
+      run.on(events::test<decltype(test_empty)>{.type = "test",
+                                                .name = "filter",
+                                                .location = {},
+                                                .arg = none{},
+                                                .run = test_empty});
+      test_assert(2 == reporter.tests_.pass);
+      test_assert(0 == reporter.tests_.fail);
+      test_assert(1 == reporter.tests_.skip);
+      run = options{};
+    }
 
     const auto test_assertion_true = [&run] {
       void(run.on(events::assertion<bool>{.expr = true, .location = {}}));
