@@ -423,29 +423,32 @@ int main() {
     const auto test_assertion_true = [&run] {
       void(run.on(events::assertion<bool>{.expr = true, .location = {}}));
     };
-    run.on(events::test<decltype(test_assertion_true)>{
-        .type = "test",
-        .name = "pass",
-        .location = {},
-        .arg = none{},
-        .run = test_assertion_true});
+    {
+      run.on(events::test<decltype(test_assertion_true)>{
+          .type = "test",
+          .name = "pass",
+          .location = {},
+          .arg = none{},
+          .run = test_assertion_true});
 
-    test_assert(3 == reporter.tests_.pass);
-    test_assert(0 == reporter.tests_.fail);
-    test_assert(1 == reporter.tests_.skip);
-
-    const auto test_assertion_false = [&run] {
-      void(run.on(events::assertion<bool>{.expr = false, .location = {}}));
-    };
-    run.on(events::test<decltype(test_assertion_false)>{
-        .type = "test",
-        .name = "fail",
-        .location = {},
-        .arg = none{},
-        .run = test_assertion_false});
-    test_assert(3 == reporter.tests_.pass);
-    test_assert(1 == reporter.tests_.fail);
-    test_assert(1 == reporter.tests_.skip);
+      test_assert(3 == reporter.tests_.pass);
+      test_assert(0 == reporter.tests_.fail);
+      test_assert(1 == reporter.tests_.skip);
+    }
+    {
+      const auto test_assertion_false = [&run] {
+        void(run.on(events::assertion<bool>{.expr = false, .location = {}}));
+      };
+      run.on(events::test<decltype(test_assertion_false)>{
+          .type = "test",
+          .name = "fail",
+          .location = {},
+          .arg = none{},
+          .run = test_assertion_false});
+      test_assert(3 == reporter.tests_.pass);
+      test_assert(1 == reporter.tests_.fail);
+      test_assert(1 == reporter.tests_.skip);
+    }
 
     const auto test_throw = [] { throw 42; };
     {
