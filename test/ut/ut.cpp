@@ -443,6 +443,7 @@ int main() {
       test_assert(0 == reporter.tests_.fail);
       test_assert(1 == reporter.tests_.skip);
     }
+
     {
       const auto test_assertion_false = [&run] {
         void(run.on(events::assertion<bool>{.expr = false, .location = {}}));
