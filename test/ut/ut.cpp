@@ -448,15 +448,17 @@ int main() {
     test_assert(1 == reporter.tests_.skip);
 
     const auto test_throw = [] { throw 42; };
-    run.on(events::test<decltype(test_throw)>{.type = "test",
-                                              .name = "exception",
-                                              .location = {},
-                                              .arg = none{},
-                                              .run = test_throw});
-    test_assert(3 == reporter.tests_.pass);
-    test_assert(2 == reporter.tests_.fail);
-    test_assert(1 == reporter.tests_.skip);
-    test_assert(1 == reporter.tests_.except);
+    {
+      run.on(events::test<decltype(test_throw)>{.type = "test",
+                                                .name = "exception",
+                                                .location = {},
+                                                .arg = none{},
+                                                .run = test_throw});
+      test_assert(3 == reporter.tests_.pass);
+      test_assert(2 == reporter.tests_.fail);
+      test_assert(1 == reporter.tests_.skip);
+      test_assert(1 == reporter.tests_.except);
+    }
 
     {
       const auto test_throw_runtime_error = [] {
