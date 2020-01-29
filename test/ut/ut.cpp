@@ -384,14 +384,16 @@ int main() {
     run.run_ = true;
 
     const auto test_empty = [] {};
-    run.on(events::test<decltype(test_empty)>{.type = "test",
-                                              .name = "run",
-                                              .location = {},
-                                              .arg = none{},
-                                              .run = test_empty});
-    test_assert(1 == reporter.tests_.pass);
-    test_assert(0 == reporter.tests_.fail);
-    test_assert(0 == reporter.tests_.skip);
+    {
+      run.on(events::test<decltype(test_empty)>{.type = "test",
+                                                .name = "run",
+                                                .location = {},
+                                                .arg = none{},
+                                                .run = test_empty});
+      test_assert(1 == reporter.tests_.pass);
+      test_assert(0 == reporter.tests_.fail);
+      test_assert(0 == reporter.tests_.skip);
+    }
 
     {
       run.on(events::skip<>{.type = "test", .name = "skip", .arg = none{}});
