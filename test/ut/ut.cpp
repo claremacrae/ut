@@ -458,19 +458,21 @@ int main() {
     test_assert(1 == reporter.tests_.skip);
     test_assert(1 == reporter.tests_.except);
 
-    const auto test_throw_runtime_error = [] {
-      throw std::runtime_error("exception");
-    };
-    run.on(events::test<decltype(test_throw_runtime_error)>{
-        .type = "test",
-        .name = "exception",
-        .location = {},
-        .arg = none{},
-        .run = test_throw_runtime_error});
-    test_assert(3 == reporter.tests_.pass);
-    test_assert(3 == reporter.tests_.fail);
-    test_assert(1 == reporter.tests_.skip);
-    test_assert(2 == reporter.tests_.except);
+    {
+      const auto test_throw_runtime_error = [] {
+        throw std::runtime_error("exception");
+      };
+      run.on(events::test<decltype(test_throw_runtime_error)>{
+          .type = "test",
+          .name = "exception",
+          .location = {},
+          .arg = none{},
+          .run = test_throw_runtime_error});
+      test_assert(3 == reporter.tests_.pass);
+      test_assert(3 == reporter.tests_.fail);
+      test_assert(1 == reporter.tests_.skip);
+      test_assert(2 == reporter.tests_.except);
+    }
 
     {
       const auto test_sub_section = [&run, test_empty] {
